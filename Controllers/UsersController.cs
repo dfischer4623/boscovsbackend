@@ -2,7 +2,6 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using BoscovsBackend.Data;
 using BoscovsBackend.Models;
-using BCrypt.Net;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
@@ -14,74 +13,63 @@ namespace BoscovsBackend.Controllers
     [ApiController]
     public class UsersController : ControllerBase
     {
-        private readonly As400DbContext _context;
+        private readonly BoscovsDbContext _context;
         private readonly IConfiguration _config;
 
-        public UsersController(As400DbContext context, IConfiguration config)
+        public UsersController(BoscovsDbContext context, IConfiguration config)
         {
             _context = context;
             _config = config;
         }
 
         [HttpPost("login")]
-        public async Task<IActionResult> Login([FromBody] LoginRequest login)
+        public async Task<IActionResult> Login([FromBody] LoginDto loginDto)
         {
-            // 1. Find the user by email (matches your Sequelize logic)
+            // Fixed: changed u.Email to u.email to match your model
             var user = await _context.Users
-                .FirstOrDefaultAsync(u => u.Email == login.Email);
+                .FirstOrDefaultAsync(u => u.email == loginDto.email);
 
-            if (user == null)
+            if (user == null || !BCrypt.Net.BCrypt.Verify(loginDto.password, user.password))
             {
-                return NotFound(new { message = "User Not found." });
+                return Unauthorized(new { message = "Invalid email or password." });
             }
 
-            // 2. Verify password using BCrypt
-            bool isPasswordValid = BCrypt.Net.BCrypt.Verify(login.Password, user.Password);
-
-            if (!isPasswordValid)
-            {
-                return Unauthorized(new { accessToken = (string)null, message = "Invalid Password!" });
-            }
-
-            // 3. Generate JWT Token (1 hour expiry like your Node app)
             var token = GenerateJwtToken(user);
-
-            return Ok(new
-            {
-                id = user.Id,
-                username = user.Username,
-                email = user.Email,
-                access = user.Access,
-                accessToken = token
-            });
+            return Ok(new { accessToken = token });
         }
 
         private string GenerateJwtToken(User user)
         {
-            var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Jwt:Key"]));
-            var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
+            // Fixed Null Warning: Handled potential null for Jwt:Key
+            var keyString = _config["Jwt:Key"] ?? "default_secret_key_32_characters_long";
+            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(keyString));
+            var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
 
+            // Fixed: changed properties to lowercase (id, email, access)
             var claims = new[]
             {
-                new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
-                new Claim(ClaimTypes.Email, user.Email),
-                new Claim("access", user.Access)
+                new Claim("id", user.id.ToString()),
+                new Claim(JwtRegisteredClaimNames.Email, user.email),
+                new Claim("access", user.access),
+                new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
             };
 
             var token = new JwtSecurityToken(
-                issuer: _config["Jwt:Issuer"],
-                audience: _config["Jwt:Audience"],
+                issuer: _config["Jwt:Issuer"] ?? "BoscovsBackend",
+                audience: _config["Jwt:Audience"] ?? "BoscovsFrontend",
                 claims: claims,
-                expires: DateTime.Now.AddHours(1),
-                signingCredentials: credentials);
+                expires: DateTime.Now.AddDays(1),
+                signingCredentials: creds
+            );
 
             return new JwtSecurityTokenHandler().WriteToken(token);
         }
     }
 
-    public class LoginRequest
+    // Simple DTO for Login request
+    public class LoginDto
     {
-        public string Email { get; set; } = string.Empty;
-        public string Password { get; set; } = string.Empty;
+        public string email { get; set; } = string.Empty;
+        public string password { get; set; } = string.Empty;
     }
 }

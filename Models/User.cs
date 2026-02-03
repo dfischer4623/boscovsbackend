@@ -3,32 +3,27 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace BoscovsBackend.Models
 {
-    [Table("users", Schema = "dbo")]
+    [Table("users")]
     public class User
     {
         [Key]
-        [Column("id")]
-        public int Id { get; set; }
+        public int id { get; set; }
 
-        [Column("username")]
-        public string Username { get; set; } = string.Empty;
+        [Required]
+        public string username { get; set; } = string.Empty;
 
-        [Column("email")]
-        public string Email { get; set; } = string.Empty;
+        [Required]
+        public string email { get; set; } = string.Empty;
 
-        [Column("password")]
-        public string Password { get; set; } = string.Empty;
+        [Required]
+        public string password { get; set; } = string.Empty;
 
-        [Column("status")]
-        public string Status { get; set; } = "Active";
+        public string status { get; set; } = "Active";
 
-        [Column("access")]
-        public string Access { get; set; } = string.Empty;
+        public string access { get; set; } = "user";
 
-        [Column("created_at")]
-        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+        public string created_at { get; set; } = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
 
-        [Column("updated_at")]
-        public DateTime UpdatedAt { get; set; } = DateTime.UtcNow;
+        public string updated_at { get; set; } = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
     }
 }

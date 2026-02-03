@@ -3,22 +3,43 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// 1. REGISTER SERVICES (Everything before builder.Build)
+// 1. SERVICES (The "Brain" of the app)
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
 
-// Database registrations
-builder.Services.AddDbContext<As400DbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("As400Connection")));
+// Swagger Config (with the Padlock/Authorize button)
+builder.Services.AddSwaggerGen(options =>
+{
+    options.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+    {
+        Name = "Authorization",
+        Type = SecuritySchemeType.Http,
+        In = ParameterLocation.Header,
+        Scheme = "Bearer",
+        BearerFormat = "JWT",
+        Description = "Input your JWT token."
+    });
+    options.AddSecurityRequirement(new OpenApiSecurityRequirement
+    {
+        {
+            new OpenApiSecurityScheme {
+                Reference = new OpenApiReference { Type = ReferenceType.SecurityScheme, Id = "Bearer" }
+            },
+            new string[] {}
+        }
+    });
+});
 
-builder.Services.AddDbContext<S3DbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("S3DataConnection")));
+// Database (Local SQLite)
+builder.Services.AddDbContext<BoscovsDbContext>(options =>
+    options.UseSqlite(builder.Configuration.GetConnectionString("LocalConnection")));
 
-// JWT Authentication registration
+// Authentication Logic
+var jwtKey = builder.Configuration["Jwt:Key"] ?? "default_secret_key_32_characters_long";
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>
     {
@@ -30,20 +51,13 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
             ValidateIssuerSigningKey = true,
             ValidIssuer = builder.Configuration["Jwt:Issuer"],
             ValidAudience = builder.Configuration["Jwt:Audience"],
-            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
+            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtKey))
         };
     });
 
-builder.Services.AddCors(options =>
-{
-    options.AddPolicy("AllowAll",
-        builder => builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
-});
-
-// THIS IS THE LINE YOU ARE LOOKING FOR
 var app = builder.Build();
 
-// 2. CONFIGURE MIDDLEWARE (Everything after builder.Build)
+// 2. MIDDLEWARE (The "Request Pipe")
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -51,13 +65,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
- 
-app.UseCors("AllowAll");
-
 app.UseAuthentication();
-
 app.UseAuthorization();
-
 app.MapControllers();
 
 app.Run();
