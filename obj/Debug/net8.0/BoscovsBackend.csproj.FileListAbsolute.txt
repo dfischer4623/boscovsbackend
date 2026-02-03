@@ -1,0 +1,158 @@
+C:\Users\Administrator\Documents\websites\BoscovsBackend\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Administrator\Documents\websites\BoscovsBackend\bin\Debug\net8.0\appsettings.json
+C:\Users\Administrator\Documents\websites\BoscovsBackend\bin\Debug\net8.0\BoscovsBackend.exe
+C:\Users\Administrator\Documents\websites\BoscovsBackend\bin\Debug\net8.0\BoscovsBackend.deps.json
+C:\Users\Administrator\Documents\websites\BoscovsBackend\bin\Debug\net8.0\BoscovsBackend.runtimeconfig.json
+C:\Users\Administrator\Documents\websites\BoscovsBackend\bin\Debug\net8.0\BoscovsBackend.dll
+C:\Users\Administrator\Documents\websites\BoscovsBackend\bin\Debug\net8.0\BoscovsBackend.pdb
+C:\Users\Administrator\Documents\websites\BoscovsBackend\bin\Debug\net8.0\BCrypt.Net-Next.dll
+C:\Users\Administrator\Documents\websites\BoscovsBackend\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\Administrator\Documents\websites\BoscovsBackend\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Administrator\Documents\websites\BoscovsBackend\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Administrator\Documents\websites\BoscovsBackend\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Administrator\Documents\websites\BoscovsBackend\obj\Debug\net8.0\BoscovsBackend.csproj.AssemblyReference.cache
+C:\Users\Administrator\Documents\websites\BoscovsBackend\obj\Debug\net8.0\BoscovsBackend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Documents\websites\BoscovsBackend\obj\Debug\net8.0\BoscovsBackend.AssemblyInfoInputs.cache
+C:\Users\Administrator\Documents\websites\BoscovsBackend\obj\Debug\net8.0\BoscovsBackend.AssemblyInfo.cs
+C:\Users\Administrator\Documents\websites\BoscovsBackend\obj\Debug\net8.0\BoscovsBackend.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\websites\BoscovsBackend\obj\Debug\net8.0\BoscovsBackend.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Administrator\Documents\websites\BoscovsBackend\obj\Debug\net8.0\BoscovsBackend.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Administrator\Documents\websites\BoscovsBackend\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Administrator\Documents\websites\BoscovsBackend\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Administrator\Documents\websites\BoscovsBackend\obj\Debug\net8.0\staticwebassets\msbuild.BoscovsBackend.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Administrator\Documents\websites\BoscovsBackend\obj\Debug\net8.0\staticwebassets\msbuild.build.BoscovsBackend.props
+C:\Users\Administrator\Documents\websites\BoscovsBackend\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.BoscovsBackend.props
+C:\Users\Administrator\Documents\websites\BoscovsBackend\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.BoscovsBackend.props
+C:\Users\Administrator\Documents\websites\BoscovsBackend\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Administrator\Documents\websites\BoscovsBackend\obj\Debug\net8.0\scopedcss\bundle\BoscovsBackend.styles.css
+C:\Users\Administrator\Documents\websites\BoscovsBackend\obj\Debug\net8.0\BoscovsB.68627E6D.Up2Date
+C:\Users\Administrator\Documents\websites\BoscovsBackend\obj\Debug\net8.0\BoscovsBackend.dll
+C:\Users\Administrator\Documents\websites\BoscovsBackend\obj\Debug\net8.0\refint\BoscovsBackend.dll
+C:\Users\Administrator\Documents\websites\BoscovsBackend\obj\Debug\net8.0\BoscovsBackend.pdb
+C:\Users\Administrator\Documents\websites\BoscovsBackend\obj\Debug\net8.0\BoscovsBackend.genruntimeconfig.cache
+C:\Users\Administrator\Documents\websites\BoscovsBackend\obj\Debug\net8.0\ref\BoscovsBackend.dll
+C:\Users\Administrator\Documents\websites\BoscovsBackend\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\Administrator\Documents\websites\BoscovsBackend\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\Administrator\Documents\websites\BoscovsBackend\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Administrator\Documents\websites\BoscovsBackend\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Administrator\Documents\websites\BoscovsBackend\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\Administrator\Documents\websites\BoscovsBackend\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Administrator\Documents\websites\BoscovsBackend\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Administrator\Documents\websites\BoscovsBackend\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Administrator\Documents\websites\BoscovsBackend\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Administrator\Documents\websites\BoscovsBackend\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Administrator\Documents\websites\BoscovsBackend\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Administrator\Documents\websites\BoscovsBackend\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Administrator\Documents\websites\BoscovsBackend\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\Administrator\Documents\websites\BoscovsBackend\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Administrator\Documents\websites\BoscovsBackend\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\Administrator\Documents\websites\BoscovsBackend\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\Administrator\Documents\websites\BoscovsBackend\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Administrator\Documents\websites\BoscovsBackend\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Administrator\Documents\websites\BoscovsBackend\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Administrator\Documents\websites\BoscovsBackend\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Administrator\Documents\websites\BoscovsBackend\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Administrator\Documents\websites\BoscovsBackend\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Administrator\Documents\websites\BoscovsBackend\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Administrator\Documents\websites\BoscovsBackend\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\Administrator\Documents\websites\BoscovsBackend\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Administrator\Documents\websites\BoscovsBackend\bin\Debug\net8.0\System.ClientModel.dll
+C:\Users\Administrator\Documents\websites\BoscovsBackend\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Administrator\Documents\websites\BoscovsBackend\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\Administrator\Documents\websites\BoscovsBackend\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Administrator\Documents\websites\BoscovsBackend\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\Administrator\Documents\websites\BoscovsBackend\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Users\Administrator\Documents\websites\BoscovsBackend\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Administrator\Documents\websites\BoscovsBackend\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\Administrator\Documents\websites\BoscovsBackend\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\Administrator\Documents\websites\BoscovsBackend\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Administrator\Documents\websites\BoscovsBackend\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Administrator\Documents\websites\BoscovsBackend\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Administrator\Documents\websites\BoscovsBackend\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Administrator\Documents\websites\BoscovsBackend\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Administrator\Documents\websites\BoscovsBackend\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Administrator\Documents\websites\BoscovsBackend\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Administrator\Documents\websites\BoscovsBackend\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Administrator\Documents\websites\BoscovsBackend\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Administrator\Documents\websites\BoscovsBackend\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\Administrator\Documents\websites\BoscovsBackend\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Administrator\Documents\websites\BoscovsBackend\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\dfischer.HK8P103\OneDrive - Mark Fischer Ltd\Documents\projects\boscovs\BoscovsBackend\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\dfischer.HK8P103\OneDrive - Mark Fischer Ltd\Documents\projects\boscovs\BoscovsBackend\bin\Debug\net8.0\appsettings.json
+C:\Users\dfischer.HK8P103\OneDrive - Mark Fischer Ltd\Documents\projects\boscovs\BoscovsBackend\bin\Debug\net8.0\BoscovsBackend.exe
+C:\Users\dfischer.HK8P103\OneDrive - Mark Fischer Ltd\Documents\projects\boscovs\BoscovsBackend\bin\Debug\net8.0\BoscovsBackend.deps.json
+C:\Users\dfischer.HK8P103\OneDrive - Mark Fischer Ltd\Documents\projects\boscovs\BoscovsBackend\bin\Debug\net8.0\BoscovsBackend.runtimeconfig.json
+C:\Users\dfischer.HK8P103\OneDrive - Mark Fischer Ltd\Documents\projects\boscovs\BoscovsBackend\bin\Debug\net8.0\BoscovsBackend.dll
+C:\Users\dfischer.HK8P103\OneDrive - Mark Fischer Ltd\Documents\projects\boscovs\BoscovsBackend\bin\Debug\net8.0\BoscovsBackend.pdb
+C:\Users\dfischer.HK8P103\OneDrive - Mark Fischer Ltd\Documents\projects\boscovs\BoscovsBackend\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\dfischer.HK8P103\OneDrive - Mark Fischer Ltd\Documents\projects\boscovs\BoscovsBackend\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\dfischer.HK8P103\OneDrive - Mark Fischer Ltd\Documents\projects\boscovs\BoscovsBackend\bin\Debug\net8.0\BCrypt.Net-Next.dll
+C:\Users\dfischer.HK8P103\OneDrive - Mark Fischer Ltd\Documents\projects\boscovs\BoscovsBackend\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\dfischer.HK8P103\OneDrive - Mark Fischer Ltd\Documents\projects\boscovs\BoscovsBackend\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\dfischer.HK8P103\OneDrive - Mark Fischer Ltd\Documents\projects\boscovs\BoscovsBackend\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\dfischer.HK8P103\OneDrive - Mark Fischer Ltd\Documents\projects\boscovs\BoscovsBackend\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\dfischer.HK8P103\OneDrive - Mark Fischer Ltd\Documents\projects\boscovs\BoscovsBackend\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\dfischer.HK8P103\OneDrive - Mark Fischer Ltd\Documents\projects\boscovs\BoscovsBackend\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\dfischer.HK8P103\OneDrive - Mark Fischer Ltd\Documents\projects\boscovs\BoscovsBackend\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\dfischer.HK8P103\OneDrive - Mark Fischer Ltd\Documents\projects\boscovs\BoscovsBackend\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\dfischer.HK8P103\OneDrive - Mark Fischer Ltd\Documents\projects\boscovs\BoscovsBackend\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\dfischer.HK8P103\OneDrive - Mark Fischer Ltd\Documents\projects\boscovs\BoscovsBackend\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\dfischer.HK8P103\OneDrive - Mark Fischer Ltd\Documents\projects\boscovs\BoscovsBackend\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\dfischer.HK8P103\OneDrive - Mark Fischer Ltd\Documents\projects\boscovs\BoscovsBackend\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\dfischer.HK8P103\OneDrive - Mark Fischer Ltd\Documents\projects\boscovs\BoscovsBackend\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\dfischer.HK8P103\OneDrive - Mark Fischer Ltd\Documents\projects\boscovs\BoscovsBackend\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\dfischer.HK8P103\OneDrive - Mark Fischer Ltd\Documents\projects\boscovs\BoscovsBackend\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\dfischer.HK8P103\OneDrive - Mark Fischer Ltd\Documents\projects\boscovs\BoscovsBackend\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\dfischer.HK8P103\OneDrive - Mark Fischer Ltd\Documents\projects\boscovs\BoscovsBackend\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\dfischer.HK8P103\OneDrive - Mark Fischer Ltd\Documents\projects\boscovs\BoscovsBackend\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\dfischer.HK8P103\OneDrive - Mark Fischer Ltd\Documents\projects\boscovs\BoscovsBackend\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\dfischer.HK8P103\OneDrive - Mark Fischer Ltd\Documents\projects\boscovs\BoscovsBackend\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\dfischer.HK8P103\OneDrive - Mark Fischer Ltd\Documents\projects\boscovs\BoscovsBackend\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\dfischer.HK8P103\OneDrive - Mark Fischer Ltd\Documents\projects\boscovs\BoscovsBackend\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\dfischer.HK8P103\OneDrive - Mark Fischer Ltd\Documents\projects\boscovs\BoscovsBackend\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\dfischer.HK8P103\OneDrive - Mark Fischer Ltd\Documents\projects\boscovs\BoscovsBackend\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\dfischer.HK8P103\OneDrive - Mark Fischer Ltd\Documents\projects\boscovs\BoscovsBackend\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\dfischer.HK8P103\OneDrive - Mark Fischer Ltd\Documents\projects\boscovs\BoscovsBackend\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\dfischer.HK8P103\OneDrive - Mark Fischer Ltd\Documents\projects\boscovs\BoscovsBackend\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\dfischer.HK8P103\OneDrive - Mark Fischer Ltd\Documents\projects\boscovs\BoscovsBackend\bin\Debug\net8.0\System.ClientModel.dll
+C:\Users\dfischer.HK8P103\OneDrive - Mark Fischer Ltd\Documents\projects\boscovs\BoscovsBackend\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\dfischer.HK8P103\OneDrive - Mark Fischer Ltd\Documents\projects\boscovs\BoscovsBackend\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\dfischer.HK8P103\OneDrive - Mark Fischer Ltd\Documents\projects\boscovs\BoscovsBackend\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\dfischer.HK8P103\OneDrive - Mark Fischer Ltd\Documents\projects\boscovs\BoscovsBackend\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\dfischer.HK8P103\OneDrive - Mark Fischer Ltd\Documents\projects\boscovs\BoscovsBackend\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Users\dfischer.HK8P103\OneDrive - Mark Fischer Ltd\Documents\projects\boscovs\BoscovsBackend\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\dfischer.HK8P103\OneDrive - Mark Fischer Ltd\Documents\projects\boscovs\BoscovsBackend\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\dfischer.HK8P103\OneDrive - Mark Fischer Ltd\Documents\projects\boscovs\BoscovsBackend\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\dfischer.HK8P103\OneDrive - Mark Fischer Ltd\Documents\projects\boscovs\BoscovsBackend\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\dfischer.HK8P103\OneDrive - Mark Fischer Ltd\Documents\projects\boscovs\BoscovsBackend\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\dfischer.HK8P103\OneDrive - Mark Fischer Ltd\Documents\projects\boscovs\BoscovsBackend\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\dfischer.HK8P103\OneDrive - Mark Fischer Ltd\Documents\projects\boscovs\BoscovsBackend\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\dfischer.HK8P103\OneDrive - Mark Fischer Ltd\Documents\projects\boscovs\BoscovsBackend\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\dfischer.HK8P103\OneDrive - Mark Fischer Ltd\Documents\projects\boscovs\BoscovsBackend\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\dfischer.HK8P103\OneDrive - Mark Fischer Ltd\Documents\projects\boscovs\BoscovsBackend\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\dfischer.HK8P103\OneDrive - Mark Fischer Ltd\Documents\projects\boscovs\BoscovsBackend\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\dfischer.HK8P103\OneDrive - Mark Fischer Ltd\Documents\projects\boscovs\BoscovsBackend\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\dfischer.HK8P103\OneDrive - Mark Fischer Ltd\Documents\projects\boscovs\BoscovsBackend\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\dfischer.HK8P103\OneDrive - Mark Fischer Ltd\Documents\projects\boscovs\BoscovsBackend\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\dfischer.HK8P103\OneDrive - Mark Fischer Ltd\Documents\projects\boscovs\BoscovsBackend\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\dfischer.HK8P103\OneDrive - Mark Fischer Ltd\Documents\projects\boscovs\BoscovsBackend\obj\Debug\net8.0\BoscovsBackend.csproj.AssemblyReference.cache
+C:\Users\dfischer.HK8P103\OneDrive - Mark Fischer Ltd\Documents\projects\boscovs\BoscovsBackend\obj\Debug\net8.0\BoscovsBackend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dfischer.HK8P103\OneDrive - Mark Fischer Ltd\Documents\projects\boscovs\BoscovsBackend\obj\Debug\net8.0\BoscovsBackend.AssemblyInfoInputs.cache
+C:\Users\dfischer.HK8P103\OneDrive - Mark Fischer Ltd\Documents\projects\boscovs\BoscovsBackend\obj\Debug\net8.0\BoscovsBackend.AssemblyInfo.cs
+C:\Users\dfischer.HK8P103\OneDrive - Mark Fischer Ltd\Documents\projects\boscovs\BoscovsBackend\obj\Debug\net8.0\BoscovsBackend.csproj.CoreCompileInputs.cache
+C:\Users\dfischer.HK8P103\OneDrive - Mark Fischer Ltd\Documents\projects\boscovs\BoscovsBackend\obj\Debug\net8.0\BoscovsBackend.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\dfischer.HK8P103\OneDrive - Mark Fischer Ltd\Documents\projects\boscovs\BoscovsBackend\obj\Debug\net8.0\BoscovsBackend.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\dfischer.HK8P103\OneDrive - Mark Fischer Ltd\Documents\projects\boscovs\BoscovsBackend\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\dfischer.HK8P103\OneDrive - Mark Fischer Ltd\Documents\projects\boscovs\BoscovsBackend\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\dfischer.HK8P103\OneDrive - Mark Fischer Ltd\Documents\projects\boscovs\BoscovsBackend\obj\Debug\net8.0\staticwebassets\msbuild.BoscovsBackend.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\dfischer.HK8P103\OneDrive - Mark Fischer Ltd\Documents\projects\boscovs\BoscovsBackend\obj\Debug\net8.0\staticwebassets\msbuild.build.BoscovsBackend.props
+C:\Users\dfischer.HK8P103\OneDrive - Mark Fischer Ltd\Documents\projects\boscovs\BoscovsBackend\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.BoscovsBackend.props
+C:\Users\dfischer.HK8P103\OneDrive - Mark Fischer Ltd\Documents\projects\boscovs\BoscovsBackend\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.BoscovsBackend.props
+C:\Users\dfischer.HK8P103\OneDrive - Mark Fischer Ltd\Documents\projects\boscovs\BoscovsBackend\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\dfischer.HK8P103\OneDrive - Mark Fischer Ltd\Documents\projects\boscovs\BoscovsBackend\obj\Debug\net8.0\scopedcss\bundle\BoscovsBackend.styles.css
+C:\Users\dfischer.HK8P103\OneDrive - Mark Fischer Ltd\Documents\projects\boscovs\BoscovsBackend\obj\Debug\net8.0\BoscovsB.68627E6D.Up2Date
+C:\Users\dfischer.HK8P103\OneDrive - Mark Fischer Ltd\Documents\projects\boscovs\BoscovsBackend\obj\Debug\net8.0\BoscovsBackend.dll
+C:\Users\dfischer.HK8P103\OneDrive - Mark Fischer Ltd\Documents\projects\boscovs\BoscovsBackend\obj\Debug\net8.0\refint\BoscovsBackend.dll
+C:\Users\dfischer.HK8P103\OneDrive - Mark Fischer Ltd\Documents\projects\boscovs\BoscovsBackend\obj\Debug\net8.0\BoscovsBackend.pdb
+C:\Users\dfischer.HK8P103\OneDrive - Mark Fischer Ltd\Documents\projects\boscovs\BoscovsBackend\obj\Debug\net8.0\BoscovsBackend.genruntimeconfig.cache
+C:\Users\dfischer.HK8P103\OneDrive - Mark Fischer Ltd\Documents\projects\boscovs\BoscovsBackend\obj\Debug\net8.0\ref\BoscovsBackend.dll
