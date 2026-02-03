@@ -1,0 +1,30 @@
+# --- .NET Core / C# specific ---
+bin/
+obj/
+out/
+.vscode/
+*.user
+*.userosscache
+*.sln.doccache
+
+# --- Secrets and Config ---
+# We ignore the actual appsettings on GitHub to protect your SQL passwords
+# appsettings.json
+appsettings.Development.json
+
+# --- User Secrets ---
+# .NET handles these outside the project folder anyway, but good to have
+secrets.json
+
+# --- OS / IDE specific ---
+.DS_Store
+Thumbs.db
+.history/
+.ionide/
+
+# --- Node.js (since this was a Node project) ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env
