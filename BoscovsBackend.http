@@ -1,6 +1,0 @@
-@BoscovsBackend_HostAddress = http://localhost:5272
-
-GET {{BoscovsBackend_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
