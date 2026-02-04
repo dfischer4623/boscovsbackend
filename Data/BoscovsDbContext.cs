@@ -3,10 +3,8 @@ using BoscovsBackend.Models;
 
 namespace BoscovsBackend.Data
 {
-    public class BoscovsDbContext : DbContext
+    public class BoscovsDbContext(DbContextOptions<BoscovsDbContext> options) : DbContext(options)
     {
-        // The constructor passes our SQLite connection string settings to the base DbContext
-        public BoscovsDbContext(DbContextOptions<BoscovsDbContext> options) : base(options) { }
 
         // These properties represent our tables in the SQLite database
         public DbSet<User> Users { get; set; }
